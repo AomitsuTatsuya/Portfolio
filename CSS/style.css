@@ -1,0 +1,35 @@
+html { 
+    background-color: cornflowerblue;
+    border: 4mm ridge black;
+    text-align: center;
+    font-family: Edwardian Script ITC;
+    font-size: 50px;
+    color : blue;
+    height: 100%;
+    overflow: hidden;
+}
+.garde {
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+.accueil {
+    width : 20%;
+    border-radius : 20px;
+    margin: auto;
+    border-color: black;
+}
+.bienvenue {
+    border-radius: 20px;
+    border-color: black;
+    
+}
+input {
+    border-radius : 10px;
+	background-color : blue ;
+    color : white;
+    border: thick double black;
+	opacity : 95% ;
+    width: 10%;
+    font-family: Edwardian Script ITC;
+    font-size: 35px;
+}

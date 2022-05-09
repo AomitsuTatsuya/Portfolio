@@ -1,0 +1,70 @@
+html {
+    overflow: hidden;
+}
+
+.contener {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    
+}
+
+.gauche {
+    flex-direction: column;
+}
+
+.droite {
+    flex-direction: column;
+}
+
+.cv {
+    height: 46vh;
+    width: 50vh;
+    border: 2vh solid white;
+    background-color: red;
+    color : gold;
+    font-family: Edwardian Script ITC;
+    font-size: 60px;
+    vertical-align: middle;
+}
+
+.certif {
+    height: 46vh;
+    width: 50vh;
+    border: 2vh solid white;
+    background-color: gold;
+    color : red;
+    font-family: Edwardian Script ITC;
+    font-size: 60px;
+}
+
+.description {
+    height: vh;
+	width: 100vh;
+    border: 2vh solid white;
+    background-color: cornflowerblue;
+    color : white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.projet {
+    height: 46vh;
+    width: 50vh;
+    border: 2vh solid white;
+    background-color: gold;
+    color : red;
+    font-family: Edwardian Script ITC;
+    font-size: 60px;
+}
+
+.contact {
+    height: 46vh;
+    width: 50vh;
+    border: 2vh solid white;
+    background-color: red;
+    color : gold;
+    font-family: Edwardian Script ITC;
+    font-size: 60px;
+}
+
