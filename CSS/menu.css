@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html {
     overflow: hidden;
 }
@@ -24,8 +29,17 @@ html {
     background-color: red;
     color : gold;
     font-family: Edwardian Script ITC;
-    font-size: 60px;
-    vertical-align: middle;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 750;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cv label{
+    cursor: pointer;
 }
 
 .certif {
@@ -35,7 +49,17 @@ html {
     background-color: gold;
     color : red;
     font-family: Edwardian Script ITC;
-    font-size: 60px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 750;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.certif label {
+    cursor: pointer;
 }
 
 .description {
@@ -45,7 +69,22 @@ html {
     background-color: cornflowerblue;
     color : white;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items : flex-end;
+    flex-direction: column;
+}
+
+.nom {
+    font-family: Edwardian Script ITC;
+    font-size: 90px;
+    font-weight: 750;
+}
+.picture {
+    border-radius: 50%;
+    width: 50%;
+    margin-bottom: 50px;
 }
 
 .projet {
@@ -55,7 +94,17 @@ html {
     background-color: gold;
     color : red;
     font-family: Edwardian Script ITC;
-    font-size: 60px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 750;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.projet label {
+    cursor: pointer;
 }
 
 .contact {
@@ -65,6 +114,15 @@ html {
     background-color: red;
     color : gold;
     font-family: Edwardian Script ITC;
-    font-size: 60px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 750;
+    cursor: pointer;
+    text-decoration: none
 }
 
+.contact label {
+    cursor: pointer;
+}

@@ -1,0 +1,189 @@
+html { 
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 25px;
+    color : white;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;  
+}
+
+a.retour {
+    color: black;
+}
+
+.titre {
+    width : 50%;
+    border: 4mm ridge gold;
+    background-color: red;
+    border-radius : 100px;
+    margin: auto;
+    padding : 15px;
+    font-family: Edwardian Script ITC;
+    font-size: 100px;
+    color: gold;
+}
+
+.sous-partie {
+    font-family: Edwardian Script ITC;
+    font-size: 80px;
+    color: red;
+    border: 2mm ridge red;
+    background-color: gold;
+    border-radius: 30%;
+    width: 25%;
+    margin: auto;
+    padding : 10px;
+}
+
+.cadre {
+    width: 25%;
+    border: 1mm solid gold;
+    margin: auto;
+}
+
+h3 {
+    color: red;
+}
+
+hr {
+    border: none;
+    border-top: 5px solid gold;
+    color: red;
+    overflow: visible;
+    text-align: center;
+    width: 80%;
+
+}
+
+hr:after {
+    background: cornflowerblue;
+    content: '§';
+    position: relative;
+    top : -18px;
+}
+
+.exp {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.perso {
+    width: 50%;
+}
+
+.pro {
+    width: 50%;
+}
+
+p {
+    font-size: 20px;
+    color: red;
+}
+
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 50%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.skill {
+    background-color: gold;
+    color: cornflowerblue;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.html {
+    width: 70%;
+}
+
+.php {
+    width: 60%;
+}
+
+.css {
+    width: 70%;
+}
+
+.js {
+    width: 40%;
+}
+
+.java {
+    width: 40%;
+}
+
+.python {
+    width: 70%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.timeline-object {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 50%; /* poussé de la moitié de hauteur de viewport */
+    transform: translateX(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.timeline-object.complete::after {
+    content: '';
+    display: block;
+    position: absolute;
+    
+    width: 4px;
+    height: 140px;
+    background-color: gold;
+
+    
+    left: 23px;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+.timeline-status {
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    background-color: gold;
+
+}
+
+.timeline-object:not(.complete) .timeline-status {
+    background: #ffffff;
+    border: 4px solid #C5C5C5;
+}
+
+.timeline-content {
+    margin-left: 15px;
+}
+  
+.timeline-content h3 {
+    color: red;
+    background: gold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+  
+.timeline-content span {
+    color: #103B27;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.timeline-object:not(.complete) .timeline-content h3 {
+    color: #8A8A8A;
+    background: #E1E1DF;
+}

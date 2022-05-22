@@ -1,0 +1,45 @@
+html { 
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 25px;
+    color : white;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;  
+}
+
+a.retour {
+    color: black;
+}
+
+.titre {
+    width : 50%;
+    border: 4mm ridge red;
+    background-color: gold;
+    border-radius : 100px;
+    margin: auto;
+    padding : 15px;
+    font-family: Edwardian Script ITC;
+    font-size: 100px;
+    color: red;
+}
+
+hr {
+    border: none;
+    border-top: 5px solid red;
+    color: gold;
+    overflow: visible;
+    text-align: center;
+    width: 80%;
+
+}
+
+hr:after {
+    background: cornflowerblue;
+    content: '§';
+    position: relative;
+    top : -18px;
+}
